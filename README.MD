@@ -1,4 +1,4 @@
-Everything about javascript for community for Novice to Ninja.
+Everything about javascript for community of Novice to Ninja developers.
 
 	Versions
 		ES5

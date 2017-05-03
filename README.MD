@@ -1,47 +1,29 @@
-# Everything about javascript for community of Novice to Ninja developers.
+Everything about javascript for community of Novice to Ninja developers.
+
 ## JavaScript
-	###ES5
-	###ES6
-	###ES7
-	
-	Versions
-		ES5
 
-		ES6
+### Versions
+- [ES5](#ES5)
+- [ES6](#ES6)
+- [ES7](#ES7)
 
-	Frameworks
-		Angularjs
+### Frameworks
+- [Angular](#Angular)
+- [React](#React)
+- [Angular2](#Angular2)
 
-		Angular2
+### Back end with JavaScript
+- [Node](#Node)
+- [Metor](#Metor)
 
-		React
+### Package managers
+
+### Task Runners
+
+### Transpilers
+
+### Resources
 		
-		Backbone
+### News letters
 
-		Jquery
-
-	Back end
-		Node
-
-	Package mangers
-
-	Task Runnsers
-
-	Transpilers
-
-	Resources
-		Free
-
-		Paid
-
-	News letters
-
-	Commmunity
-
-
-
-
-
-
-
-
+### Commmunity

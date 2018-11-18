@@ -1,4 +1,4 @@
-Everything about javascript for community of Novice to Ninja developers.
+Everything about javascript - A roadmap from Beginner to Advanced.
 
 ## JavaScript
 - [ES5](#ES5)

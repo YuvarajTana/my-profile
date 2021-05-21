@@ -1,39 +1,133 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta http-equiv="X-UA-Compatible" content="ie=edge">
-	<title>Document</title>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet" />
+    <title>Document</title>
 
-	<!-- Styling page -->
-	<style>
-		*, body{
-			padding: 0;
-			margin: 0;
-		}
-		#container{
-			margin: 0 auto;
-			width: 600px;
-			font-family: cursive;
-		}
-		h2{
-			padding: 10px;
-    	font-size: 50px;
-    	color: #888888;
-		}
-		p{
-			font-size: 32px;
-    	color: #aa81d0;
-		}
-	</style>
-</head>
-<body>
-	<div id="container">
-			<div>
-				<h2>Yuvaraj Tana</h2>
-				<p>Software Engineer - Solving real world problems with programming. I work a lot on JavaScript, Python, React, Node.js, Django, MongoDB, MySQL</p>
-			</div>
-	</div>
-</body>
+    <!-- Styling page -->
+    <style>
+      *,
+      body {
+        padding: 0;
+        margin: 0;
+        font-family: "Open Sans", sans-serif;
+      }
+      header {
+        height: 50px;
+        background-color: rgb(96 125 139);
+        padding: 10px;
+      }
+      nav > ul {
+        display: flex;
+        justify-content: flex-end;
+        padding: 16px;
+        /* flex-direction: row-reverse; */
+      }
+      nav > ul > li {
+        flex-basis: 10%;
+        list-style-type: none;
+      }
+
+      nav > ul > li > a {
+        text-decoration: none;
+        color: #ffffff;
+        font-size: 18px;
+      }
+
+      #container {
+        margin: 0 auto;
+        /* padding: 20px; */
+        /* width: 800px;*/
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+      }
+      #aboutme {
+        /* display: flex; */
+        width: 600px;
+        /* justify-content: center;
+        align-items: center; */
+      }
+      #para {
+        margin: 20px 0px 40px 0px;
+      }
+      #para p {
+        color: #7d7a7a;
+        padding: 10px;
+        font-size: 18px;
+        font-weight: 600;
+        width: 600px;
+      }
+      #skills {
+        width: 600px;
+        padding: 10px;
+      }
+      #skills p {
+        color: #33805b;
+        font-size: 20px;
+        font-family: sans-serif;
+        font-weight: 600;
+      }
+      #skills li {
+        list-style-type: none;
+        padding: 5px;
+        font-size: 18px;
+        font-weight: 600;
+        color: #888888;
+      }
+      h2 {
+        padding: 10px;
+        font-size: 36px;
+        color: #33805b;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="#aboutme">About me</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="https://github.com/YuvarajTana" target="_blank">Github</a></li>
+          <li><a href="https://hashnode.com/@YuvarajTana" target="_blank">Blog</a></li>
+        </ul>
+      </nav>
+    </header>
+    <div id="container">
+      <div id="aboutme">
+        <h2>I am, Yuvaraj and I build user interfaces and solve real world problems with programming.</h2>
+      </div>
+      <div id="para">
+        <p>
+          - Passionate JavaScript developer to build, architect and ship user interfaces with best user experience, optimisation and
+          performance.
+        </p>
+        <p>- Building and delivering rich and large scalable user interfaces with best libraries and tools.</p>
+        <p>
+          - Experienced with React ecosystem like React, React hooks(useContext and useReducer my favorite), redux, react-router, WebPack.
+        </p>
+        <p>- Exploring PWA, TypeScript, GraphQL to bring app like experience to users with strong typing and solid back end system.</p>
+      </div>
+      <div id="skills">
+        <p>My Skills</p>
+        <ul>
+          <li>JavaScript</li>
+          <li>React</li>
+          <li>Node.js</li>
+          <li>TypeScript</li>
+          <li>Python</li>
+          <li>Django</li>
+          <li>SQL - MySQL</li>
+          <li>NoSql - MongoDB</li>
+        </ul>
+      </div>
+    </div>
+
+    <footer></footer>
+  </body>
 </html>

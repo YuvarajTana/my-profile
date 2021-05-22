@@ -9,7 +9,7 @@
     <title>Document</title>
 
     <!-- Styling page -->
-    <style>
+    <!-- <style>
       *,
       body {
         padding: 0;
@@ -20,10 +20,11 @@
         height: 50px;
         background-color: rgb(96 125 139);
         padding: 10px;
+        width: 100%;
       }
       nav > ul {
-        display: flex;
-        justify-content: flex-end;
+        /* display: flex;
+        justify-content: flex-end; */
         padding: 16px;
         /* flex-direction: row-reverse; */
       }
@@ -42,7 +43,7 @@
         margin: 0 auto;
         /* padding: 20px; */
         /* width: 800px;*/
-        display: flex;
+        /* display: flex; */
         align-items: center;
         justify-content: center;
         flex-direction: column;
@@ -85,7 +86,8 @@
         font-size: 36px;
         color: #33805b;
       }
-    </style>
+    </style> -->
+    <link rel="stylesheet" href="./styles.css" />
   </head>
   <body>
     <header>
@@ -101,18 +103,19 @@
     <div id="container">
       <div id="aboutme">
         <h2>I am, Yuvaraj and I build user interfaces and solve real world problems with programming.</h2>
+        <div id="para">
+          <p>
+            - Passionate JavaScript developer to build, architect and ship user interfaces with best user experience, optimisation and
+            performance.
+          </p>
+          <p>- Building and delivering rich and large scalable user interfaces with best libraries and tools.</p>
+          <p>
+            - Experienced with React ecosystem like React, React hooks(useContext and useReducer my favorite), redux, react-router, WebPack.
+          </p>
+          <p>- Exploring PWA, TypeScript, GraphQL to bring app like experience to users with strong typing and solid back end system.</p>
+        </div>
       </div>
-      <div id="para">
-        <p>
-          - Passionate JavaScript developer to build, architect and ship user interfaces with best user experience, optimisation and
-          performance.
-        </p>
-        <p>- Building and delivering rich and large scalable user interfaces with best libraries and tools.</p>
-        <p>
-          - Experienced with React ecosystem like React, React hooks(useContext and useReducer my favorite), redux, react-router, WebPack.
-        </p>
-        <p>- Exploring PWA, TypeScript, GraphQL to bring app like experience to users with strong typing and solid back end system.</p>
-      </div>
+
       <div id="skills">
         <p>My Skills</p>
         <ul>
@@ -127,7 +130,5 @@
         </ul>
       </div>
     </div>
-
-    <footer></footer>
   </body>
 </html>
